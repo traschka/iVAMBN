@@ -1,0 +1,22 @@
+,Unnamed: 0,act,loss,lrates,nbatch,wdecay,ydims,files
+24,24.0,none,2.2436331808567047,0.01,16.0,0.001,1.0,gridsearchresult\Cluster_11_grid_search_results.csv
+25,25.0,relu,2.309341698884964,0.01,16.0,0.001,1.0,gridsearchresult\Cluster_14_grid_search_results.csv
+20,20.0,tanh,2.331711063782374,0.01,16.0,0.0,1.0,gridsearchresult\Cluster_15_grid_search_results.csv
+25,25.0,relu,2.311944047609965,0.01,16.0,0.001,1.0,gridsearchresult\Cluster_16_grid_search_results.csv
+22,22.0,relu,2.1028485496838893,0.01,32.0,0.0,1.0,gridsearchresult\Cluster_17_grid_search_results.csv
+18,18.0,none,1.6117670834064484,0.01,16.0,0.0,1.0,gridsearchresult\Cluster_18_grid_search_results.csv
+20,20.0,tanh,2.7167538404464717,0.01,16.0,0.0,1.0,gridsearchresult\Cluster_19_grid_search_results.csv
+5,0.0,,291.85003916422534,0.001,16.0,0.0,1.0,gridsearchresult\Cluster_1_grid_search_results.csv
+25,25.0,relu,2.5521052082379656,0.01,16.0,0.001,1.0,gridsearchresult\Cluster_20_grid_search_results.csv
+21,21.0,none,2.625760237375895,0.01,32.0,0.0,1.0,gridsearchresult\Cluster_21_grid_search_results.csv
+27,27.0,none,2.484218160311381,0.01,32.0,0.001,1.0,gridsearchresult\Cluster_25_grid_search_results.csv
+21,21.0,none,2.2315052350362143,0.01,32.0,0.0,1.0,gridsearchresult\Cluster_26_grid_search_results.csv
+0,0.0,none,2.60203750928243,0.001,16.0,0.0,1.0,gridsearchresult\Cluster_27_grid_search_results.csv
+12,0.0,,17.679416735967,0.001,16.0,0.001,1.0,gridsearchresult\Cluster_2_grid_search_results.csv
+24,24.0,none,7.265148957570393,0.01,16.0,0.001,1.0,gridsearchresult\Cluster_3_grid_search_results.csv
+22,0.0,,17.114038467407227,0.01,16.0,0.01,1.0,gridsearchresult\Cluster_4_grid_search_results.csv
+31,31.0,relu,4.234457929929096,0.01,16.0,0.01,1.0,gridsearchresult\Cluster_6_grid_search_results.csv
+18,18.0,none,3.1282155911127725,0.01,16.0,0.0,1.0,gridsearchresult\Cluster_7_grid_search_results.csv
+18,18.0,none,2.0435343384742737,0.01,16.0,0.0,1.0,gridsearchresult\Cluster_8_grid_search_results.csv
+19,19.0,relu,2.3172100484371185,0.01,16.0,0.0,1.0,gridsearchresult\Cluster_9_grid_search_results.csv
+6,0.0,,4.201247692108153,0.01,16.0,0.001,1.0,gridsearchresult\phenotype_grid_search_results.csv

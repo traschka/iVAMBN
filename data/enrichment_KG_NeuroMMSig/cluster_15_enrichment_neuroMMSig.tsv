@@ -1,0 +1,4 @@
+ID	Description	GeneRatio	BgRatio	pvalue	p.adjust	qvalue	geneID	Count
+Gamma secretase subgraph	Gamma secretase subgraph	1/2	7/829	0.0168266289050888	0.0335104864134075	NA	APH1A	1
+Notch signaling subgraph	Notch signaling subgraph	1/2	11/829	0.0263777439788346	0.0335104864134075	NA	NOTCH1	1
+ADAM Metallopeptidase subgraph	ADAM Metallopeptidase subgraph	1/2	14/829	0.0335104864134075	0.0335104864134075	NA	NOTCH1	1

@@ -1,0 +1,3 @@
+ID	Description	GeneRatio	BgRatio	pvalue	p.adjust	qvalue	geneID	Count
+Endoplasmic reticulum-Golgi protein export	Endoplasmic reticulum-Golgi protein export	1/2	8/829	0.0192187782264878	0.0287582384923339	NA	CST3	1
+Amyloidogenic subgraph	Amyloidogenic subgraph	1/2	12/829	0.0287582384923339	0.0287582384923339	NA	CTSB	1

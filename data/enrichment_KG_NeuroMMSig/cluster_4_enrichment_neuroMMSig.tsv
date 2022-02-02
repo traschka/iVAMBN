@@ -1,0 +1,2 @@
+ID	Description	GeneRatio	BgRatio	pvalue	p.adjust	qvalue	geneID	Count
+TGF-Beta subgraph	TGF-Beta subgraph	3/4	9/829	3.53205673788886e-06	1.41282269515554e-05	1.11538633828069e-05	TGFB2/TGFB1/TGFB3	3
