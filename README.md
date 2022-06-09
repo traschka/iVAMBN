@@ -23,26 +23,26 @@ The overall workflow of iVAMBN is based on the VAMBN modelling approach describe
   - [preparation of data for HI-VAE](scripts/prepData/)
   - [Grid Search](scripts/HI-VAE/GridSearch/5_GridSearch_ROSMAP.py)
   - [Find best hyperparameters](scripts/HI-VAE/GridSearch/6_extractBestHyperparameters.ipynb)
-  - [train HI-VAEs](HI-VAE/HIVAE_training/7_ROSMAP_HIVAE_training.py)
-  - [get embeddings](HI-VAE/HIVAE_training/8_ROSMAP_getMetaEnc.py)
-  - [plot embeddings](HI-VAE/HIVAE_training/9_ROSMAP_plotMetaEnc.ipynb)
-  - [get decoded values](HI-VAE/HIVAE_training/10_ROSMAP_decodingRP.py)
-  - [get log-likelihoods](HI-VAE/HIVAE_training/11_HIVAE_logLikelihoods.py)
+  - [train HI-VAEs](scripts/HI-VAE/HIVAE_training/7_ROSMAP_HIVAE_training.py)
+  - [get embeddings](scripts/HI-VAE/HIVAE_training/8_ROSMAP_getMetaEnc.py)
+  - [plot embeddings](scripts/HI-VAE/HIVAE_training/9_ROSMAP_plotMetaEnc.ipynb)
+  - [get decoded values](scripts/HI-VAE/HIVAE_training/10_ROSMAP_decodingRP.py)
+  - [get log-likelihoods](scripts/HI-VAE/HIVAE_training/11_HIVAE_logLikelihoods.py)
 3. Train the MBN with autoencoded values
-  - [train modular bayesian network](MBN/12-1_bnet_ROSMAP.R)
+  - [train modular bayesian network](scripts/MBN/12-1_bnet_ROSMAP.R)
 4. Apply on Mayo dataset
-  - [apply HI-VAEs](HI-VAE/Mayo/M1_Mayo_HIVAE_apply.py)
-  - [get embeddings](HI-VAE/Mayo/M2_Mayo_getMetaEnc.py)
-  - [get decoded values](HI-VAE/Mayo/M3_Mayo_decodingRP.py)
-  - [get log-likelihoods](HI-VAE/Mayo/M4_HIVAE_logLikelihoods.py)
-  - [train modular bayesian network with only Braak stages](MBN/12-2_bnet_ROSMAP_onlyBraak.R)
+  - [apply HI-VAEs](scripts/HI-VAE/Mayo/M1_Mayo_HIVAE_apply.py)
+  - [get embeddings](scripts/HI-VAE/Mayo/M2_Mayo_getMetaEnc.py)
+  - [get decoded values](scripts/HI-VAE/Mayo/M3_Mayo_decodingRP.py)
+  - [get log-likelihoods](scripts/HI-VAE/Mayo/M4_HIVAE_logLikelihoods.py)
+  - [train modular bayesian network with only Braak stages](scripts/MBN/12-2_bnet_ROSMAP_onlyBraak.R)
 5. Get statistics
-  - [get log-likelihoods of MBN](MBN/13_bnet_likelihoods_allAD.R)
-  - [test MBN against random nets](MBN/14_testAgainstRandomNet.R)
-  - [decode simulated WT samples](HI-VAE/HIVAE_training/15_decoding_simulatedCD33WT.py)
+  - [get log-likelihoods of MBN](scripts/MBN/13_bnet_likelihoods_allAD.R)
+  - [test MBN against random nets](scripts/MBN/14_testAgainstRandomNet.R)
+  - [decode simulated WT samples](scripts/HI-VAE/HIVAE_training/15_decoding_simulatedCD33WT.py)
 4. Simulate CD33 down-expression
-  - [simulate CD33 down-expression samples](MBN/16_simulateCD33KO.R)
-  - [decode simulated CD33 down-expression samples](HI-VAE/HIVAE_training/17_decoding_CD33KO.py)
+  - [simulate CD33 down-expression samples](scripts/MBN/16_simulateCD33KO.R)
+  - [decode simulated CD33 down-expression samples](scripts/HI-VAE/HIVAE_training/17_decoding_CD33KO.py)
 
 ## iVAMBN model
 The final trained iVAMBN model, as well as the BN structure object, the iVAMBN model with Braak stages only, and the HI-VAEs for each module can be found in the [models](/models) section.
